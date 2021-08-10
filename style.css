@@ -1,0 +1,97 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-image: url(arkaplan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#container{
+	width: 50%;
+	height: 560px;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(arkaplan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 60px auto;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+#hesapMakinesi{
+	width: 320px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#sonuc{
+	height: 120px;
+}
+#islemGecmisi{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#cikis{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#klavye{
+	height: 400px;
+}
+.islemOperator, .sayi, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.islemOperator{
+	background-color: #70a6ca;
+}
+.empty{
+	background-color: #eaedef;
+}
+.sayi{
+	background-color: #d8dee2;
+}
+.sayi, .islemOperator{
+	cursor: pointer;
+}
+.islemOperator:active, .sayi:active{
+	font-size: 13px;
+}
+.islemOperator:focus, .sayi:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffa500;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #9477af;
+}
